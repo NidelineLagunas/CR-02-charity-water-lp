@@ -1,0 +1,70 @@
+/* This is the CSS file for the Charity Water Landing Page */
+
+/* Basic reset for margins and padding */
+body, h1, h2, p {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Set a background color for the body */
+body {
+    font-family: Arial, sans-serif; /* Use a simple font */
+    line-height: 1.6; /* Improve readability */
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Style for the hero section */
+.hero {
+    background-color: #007bff; /* Blue background for hero section */
+    color: white; /* White text color */
+    padding: 20px; /* Add padding */
+    text-align: center; /* Center the text */
+}
+
+/* Style for the story section */
+.story {
+    padding: 20px; /* Add padding */
+    background-color: white; /* White background */
+}
+
+/* Style for the impact story section */
+.impact-story {
+    padding: 20px; /* Add padding */
+    background-color: #e9ecef; /* Light gray background */
+}
+
+/* Style for the impact content */
+.impact-content {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+/* Style for the impact image */
+.impact-image {
+    width: 300px; /* Set a fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* Style for the call-to-action section */
+.call-to-action {
+    padding: 20px; /* Add padding */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text color */
+    text-align: center; /* Center the text */
+}
+
+/* Style for the donate button */
+.donate-button {
+    display: inline-block; /* Make the link look like a button */
+    padding: 10px 20px; /* Add padding */
+    background-color: #ffc107; /* Yellow background */
+    color: black; /* Black text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Change button color on hover */
+.donate-button:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
